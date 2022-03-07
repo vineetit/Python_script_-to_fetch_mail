@@ -1,0 +1,184 @@
+<svg width="909" height="896" viewBox="0 0 681.75 672" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="translate(2.4073943081414333,625.1762109060548) scale(0.6018485770353583)">
+<title>G</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-964.96 1128.76,-964.96 1128.76,4 -4,4"/>
+<!-- start -->
+<g id="node1" class="node">
+<title>start</title>
+<ellipse fill="none" stroke="black" cx="606.94" cy="-942.96" rx="31.36" ry="18"/>
+<text text-anchor="middle" x="606.94" y="-938.76" font-family="Helvetica,sans-Serif" font-size="14.00">Start</text>
+</g>
+<!-- input -->
+<g id="node2" class="node">
+<title>input</title>
+<polygon fill="none" stroke="black" points="704.42,-887.76 509.47,-887.76 509.47,-814.56 704.42,-814.56 704.42,-887.76"/>
+<text text-anchor="middle" x="606.94" y="-855.36" font-family="Helvetica,sans-Serif" font-size="14.00">Open Browser and type URL</text>
+<text text-anchor="middle" x="606.94" y="-838.56" font-family="Helvetica,sans-Serif" font-size="14.00">http://indianarmy.com</text>
+</g>
+<!-- start&#45;&gt;input -->
+<g id="edge1" class="edge">
+<title>start-&gt;input</title>
+<path fill="none" stroke="black" d="M606.94,-924.65C606.94,-917.01 606.94,-907.64 606.94,-898.2"/>
+<polygon fill="black" stroke="black" points="610.44,-898.01 606.94,-888.01 603.44,-898.01 610.44,-898.01"/>
+</g>
+<!-- findip -->
+<g id="node3" class="node">
+<title>findip</title>
+<polygon fill="none" stroke="black" points="480.95,-777.16 340.94,-777.16 340.94,-719.96 480.95,-719.96 480.95,-777.16"/>
+<text text-anchor="middle" x="410.94" y="-744.76" font-family="Helvetica,sans-Serif" font-size="14.00"> Go for IP resolution</text>
+<text text-anchor="middle" x="410.94" y="-727.96" font-family="Helvetica,sans-Serif" font-size="14.00"> to DNS server</text>
+</g>
+<!-- input&#45;&gt;findip -->
+<g id="edge2" class="edge">
+<title>input-&gt;findip</title>
+<path fill="none" stroke="black" d="M537.57,-814.55C516.84,-803.91 494.25,-792.32 473.96,-781.9"/>
+<polygon fill="black" stroke="black" points="475.31,-778.66 464.81,-777.21 472.11,-784.89 475.31,-778.66"/>
+</g>
+<!-- process1 -->
+<g id="node4" class="node">
+<title>process1</title>
+<polygon fill="none" stroke="black" points="117.94,-682.96 0.06,-607.56 117.94,-532.16 235.83,-607.56 117.94,-682.96"/>
+<text text-anchor="middle" x="117.94" y="-628.56" font-family="Helvetica,sans-Serif" font-size="14.00">Is</text>
+<text text-anchor="middle" x="117.94" y="-611.76" font-family="Helvetica,sans-Serif" font-size="14.00"> there a problem</text>
+<text text-anchor="middle" x="117.94" y="-594.96" font-family="Helvetica,sans-Serif" font-size="14.00"> with requested </text>
+<text text-anchor="middle" x="117.94" y="-578.16" font-family="Helvetica,sans-Serif" font-size="14.00"> domain ?</text>
+</g>
+<!-- findip&#45;&gt;process1 -->
+<g id="edge3" class="edge">
+<title>findip-&gt;process1</title>
+<path fill="none" stroke="black" d="M352.71,-719.93C307.14,-698.32 243.42,-668.09 193.86,-644.58"/>
+<polygon fill="black" stroke="black" points="195.32,-641.39 184.78,-640.27 192.32,-647.72 195.32,-641.39"/>
+</g>
+<!-- process2 -->
+<g id="node5" class="node">
+<title>process2</title>
+<polygon fill="none" stroke="black" points="454.67,-636.96 287.22,-636.96 287.22,-578.16 454.67,-578.16 454.67,-636.96"/>
+<text text-anchor="middle" x="370.94" y="-620.16" font-family="Helvetica,sans-Serif" font-size="14.00"> HTTP request message</text>
+<text text-anchor="middle" x="370.94" y="-603.36" font-family="Helvetica,sans-Serif" font-size="14.00"> to the web server</text>
+<text text-anchor="middle" x="370.94" y="-586.56" font-family="Helvetica,sans-Serif" font-size="14.00"> using TCP/IP</text>
+</g>
+<!-- process1&#45;&gt;process2 -->
+<g id="edge4" class="edge">
+<title>process1-&gt;process2</title>
+<path fill="none" stroke="black" d="M235.93,-607.56C249.68,-607.56 263.57,-607.56 276.94,-607.56"/>
+<polygon fill="black" stroke="black" points="277.06,-611.06 287.06,-607.56 277.06,-604.06 277.06,-611.06"/>
+<text text-anchor="middle" x="261.49" y="-614.76" font-family="Helvetica,sans-Serif" font-size="14.00">False</text>
+</g>
+<!-- rank1 -->
+<g id="node8" class="node">
+<title>rank1</title>
+<ellipse fill="none" stroke="black" cx="389.94" cy="-390.75" rx="95.55" ry="29.33"/>
+<text text-anchor="middle" x="389.94" y="-394.95" font-family="Helvetica,sans-Serif" font-size="14.00">DNS address </text>
+<text text-anchor="middle" x="389.94" y="-378.15" font-family="Helvetica,sans-Serif" font-size="14.00"> could not be found</text>
+</g>
+<!-- process1&#45;&gt;rank1 -->
+<g id="edge5" class="edge">
+<title>process1-&gt;rank1</title>
+<path fill="none" stroke="black" d="M170.07,-565.4C221.83,-524.51 300.2,-462.62 348.06,-424.83"/>
+<polygon fill="black" stroke="black" points="350.37,-427.46 356.05,-418.52 346.03,-421.97 350.37,-427.46"/>
+<text text-anchor="middle" x="268.34" y="-501.76" font-family="Helvetica,sans-Serif" font-size="14.00">True</text>
+</g>
+<!-- process3 -->
+<g id="node6" class="node">
+<title>process3</title>
+<path fill="none" stroke="black" d="M579.3,-622.29C579.3,-624.09 559.42,-625.56 534.94,-625.56 510.47,-625.56 490.59,-624.09 490.59,-622.29 490.59,-622.29 490.59,-592.83 490.59,-592.83 490.59,-591.03 510.47,-589.56 534.94,-589.56 559.42,-589.56 579.3,-591.03 579.3,-592.83 579.3,-592.83 579.3,-622.29 579.3,-622.29"/>
+<path fill="none" stroke="black" d="M579.3,-622.29C579.3,-620.48 559.42,-619.01 534.94,-619.01 510.47,-619.01 490.59,-620.48 490.59,-622.29"/>
+<text text-anchor="middle" x="534.94" y="-603.36" font-family="Helvetica,sans-Serif" font-size="14.00"> webserver </text>
+</g>
+<!-- process2&#45;&gt;process3 -->
+<g id="edge7" class="edge">
+<title>process2-&gt;process3</title>
+<path fill="none" stroke="black" d="M454.87,-607.56C463.41,-607.56 471.95,-607.56 480.5,-607.56"/>
+<polygon fill="black" stroke="black" points="480.53,-611.06 490.53,-607.56 480.53,-604.06 480.53,-611.06"/>
+</g>
+<!-- process4 -->
+<g id="node7" class="node">
+<title>process4</title>
+<polygon fill="none" stroke="black" points="791.94,-649.26 635.26,-607.56 791.94,-565.86 948.63,-607.56 791.94,-649.26"/>
+<text text-anchor="middle" x="791.94" y="-611.76" font-family="Helvetica,sans-Serif" font-size="14.00"> webserver is respond </text>
+<text text-anchor="middle" x="791.94" y="-594.96" font-family="Helvetica,sans-Serif" font-size="14.00"> to the HTTP request </text>
+</g>
+<!-- process3&#45;&gt;process4 -->
+<g id="edge8" class="edge">
+<title>process3-&gt;process4</title>
+<path fill="none" stroke="black" d="M579.37,-607.56C594.44,-607.56 609.5,-607.56 624.57,-607.56"/>
+<polygon fill="black" stroke="black" points="625,-611.06 635,-607.56 625,-604.06 625,-611.06"/>
+</g>
+<!-- rank3 -->
+<g id="node9" class="node">
+<title>rank3</title>
+<ellipse fill="none" stroke="black" cx="976.94" cy="-390.75" rx="147.63" ry="29.33"/>
+<text text-anchor="middle" x="976.94" y="-394.95" font-family="Helvetica,sans-Serif" font-size="14.00">Error Code : 4XX</text>
+<text text-anchor="middle" x="976.94" y="-378.15" font-family="Helvetica,sans-Serif" font-size="14.00"> Response and Page not found</text>
+</g>
+<!-- process4&#45;&gt;rank3 -->
+<g id="edge9" class="edge">
+<title>process4-&gt;rank3</title>
+<path fill="none" stroke="black" d="M820.85,-573C854.86,-533.5 911.11,-468.19 945.99,-427.69"/>
+<polygon fill="black" stroke="black" points="948.79,-429.8 952.66,-419.94 943.49,-425.23 948.79,-429.8"/>
+<text text-anchor="middle" x="901.06" y="-501.76" font-family="Helvetica,sans-Serif" font-size="14.00">False</text>
+</g>
+<!-- rank4 -->
+<g id="node10" class="node">
+<title>rank4</title>
+<ellipse fill="none" stroke="black" cx="702.94" cy="-390.75" rx="108.31" ry="88.63"/>
+<text text-anchor="middle" x="702.94" y="-436.95" font-family="Helvetica,sans-Serif" font-size="14.00">Error Code : 2XX/3XX</text>
+<text text-anchor="middle" x="702.94" y="-420.15" font-family="Helvetica,sans-Serif" font-size="14.00"> '200 OK' message, </text>
+<text text-anchor="middle" x="702.94" y="-403.35" font-family="Helvetica,sans-Serif" font-size="14.00"> which means 'Of </text>
+<text text-anchor="middle" x="702.94" y="-386.55" font-family="Helvetica,sans-Serif" font-size="14.00"> course you can look </text>
+<text text-anchor="middle" x="702.94" y="-369.75" font-family="Helvetica,sans-Serif" font-size="14.00"> at that website!'</text>
+<text text-anchor="middle" x="702.94" y="-352.95" font-family="Helvetica,sans-Serif" font-size="14.00"> Here</text>
+<text text-anchor="middle" x="702.94" y="-336.15" font-family="Helvetica,sans-Serif" font-size="14.00"> it is</text>
+</g>
+<!-- process4&#45;&gt;rank4 -->
+<g id="edge10" class="edge">
+<title>process4-&gt;rank4</title>
+<path fill="none" stroke="black" d="M776.64,-569.63C766.87,-546.04 753.73,-514.33 741.26,-484.22"/>
+<polygon fill="black" stroke="black" points="744.47,-482.83 737.41,-474.93 738,-485.51 744.47,-482.83"/>
+<text text-anchor="middle" x="766.34" y="-501.76" font-family="Helvetica,sans-Serif" font-size="14.00">True</text>
+</g>
+<!-- rank1&#45;&gt;input -->
+<g id="edge6" class="edge">
+<title>rank1-&gt;input</title>
+<path fill="none" stroke="black" d="M446.03,-414.77C492.88,-437.26 556.86,-476.32 587.94,-532.36 635.92,-618.84 626.11,-739.68 615.86,-804.6"/>
+<polygon fill="black" stroke="black" points="612.4,-804.09 614.22,-814.53 619.3,-805.24 612.4,-804.09"/>
+</g>
+<!-- rank3&#45;&gt;input -->
+<g id="edge11" class="edge">
+<title>rank3-&gt;input</title>
+<path fill="none" stroke="black" d="M983.84,-420.38C995.54,-476.25 1013.04,-601.44 957.94,-682.76 902.54,-764.53 795.82,-807.51 714.54,-829.33"/>
+<polygon fill="black" stroke="black" points="713.55,-825.98 704.76,-831.89 715.32,-832.75 713.55,-825.98"/>
+</g>
+<!-- download -->
+<g id="node11" class="node">
+<title>download</title>
+<polygon fill="none" stroke="black" points="823.06,-265.04 582.83,-265.04 582.83,-189.63 823.06,-189.63 823.06,-265.04"/>
+<text text-anchor="middle" x="702.94" y="-248.34" font-family="Helvetica,sans-Serif" font-size="14.00">Now the webserver starts sending </text>
+<text text-anchor="middle" x="702.94" y="-231.54" font-family="Helvetica,sans-Serif" font-size="14.00"> starts sending the website's files</text>
+<text text-anchor="middle" x="702.94" y="-214.74" font-family="Helvetica,sans-Serif" font-size="14.00"> to the browser as a series</text>
+<text text-anchor="middle" x="702.94" y="-197.94" font-family="Helvetica,sans-Serif" font-size="14.00"> of small chunks called data packets</text>
+</g>
+<!-- rank4&#45;&gt;download -->
+<g id="edge12" class="edge">
+<title>rank4-&gt;download</title>
+<path fill="none" stroke="black" d="M702.94,-301.49C702.94,-292.48 702.94,-283.6 702.94,-275.3"/>
+<polygon fill="black" stroke="black" points="706.44,-275.14 702.94,-265.14 699.44,-275.14 706.44,-275.14"/>
+</g>
+<!-- end -->
+<g id="node12" class="node">
+<title>end</title>
+<ellipse fill="none" stroke="black" cx="702.94" cy="-76.37" rx="118.73" ry="76.24"/>
+<text text-anchor="middle" x="702.94" y="-113.77" font-family="Helvetica,sans-Serif" font-size="14.00">After receiving data </text>
+<text text-anchor="middle" x="702.94" y="-96.97" font-family="Helvetica,sans-Serif" font-size="14.00">browser render the </text>
+<text text-anchor="middle" x="702.94" y="-80.17" font-family="Helvetica,sans-Serif" font-size="14.00">data and shows the </text>
+<text text-anchor="middle" x="702.94" y="-63.37" font-family="Helvetica,sans-Serif" font-size="14.00">website over the screen </text>
+<text text-anchor="middle" x="702.94" y="-30.57" font-family="Helvetica,sans-Serif" font-size="14.00"> END</text>
+</g>
+<!-- download&#45;&gt;end -->
+<g id="edge13" class="edge">
+<title>download-&gt;end</title>
+<path fill="none" stroke="black" d="M702.94,-189.51C702.94,-181.29 702.94,-172.23 702.94,-162.94"/>
+<polygon fill="black" stroke="black" points="706.44,-162.79 702.94,-152.79 699.44,-162.79 706.44,-162.79"/>
+</g>
+</g>
+</svg>
